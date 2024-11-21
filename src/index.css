@@ -1,0 +1,338 @@
+/* Background animation for spans */
+/* Background animation for spans */
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #472574; /* Background color */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.background span {
+    width: 4vmin;
+    height: 4vmin;
+    border-radius: 50%;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move 43s linear infinite;
+}
+
+/* Individual span styles */
+.background span:nth-child(1) {
+    background-color: rgba(125, 84, 96, 0.6); /* Color with transparency */
+    top: 46%;
+    left: 78%;
+    animation-duration: 31s;
+    animation-delay: -45s;
+    transform-origin: -5vw 2vh;
+}
+
+.background span:nth-child(2) {
+    background-color: rgba(167, 42, 42, 0.6); /* Color with transparency */
+    top: 71%;
+    left: 90%;
+    animation-duration: 66s;
+    animation-delay: -69s;
+    transform-origin: 22vw 7vh;
+}
+
+.background span:nth-child(3) {
+    background-color: rgba(215, 82, 82, 0.6); /* Light color with transparency */
+    top: 35%;
+    left: 40%;
+    animation-duration: 54s;
+    animation-delay: -32s;
+    transform-origin: 5vw 10vh;
+}
+
+.background span:nth-child(4) {
+    background-color: rgba(255, 165, 0, 0.6); /* Orange color with transparency */
+    top: 20%;
+    left: 65%;
+    animation-duration: 78s;
+    animation-delay: -55s;
+    transform-origin: 10vw 5vh;
+}
+
+.background span:nth-child(5) {
+    background-color: rgba(0, 255, 255, 0.6); /* Cyan color with transparency */
+    top: 80%;
+    left: 25%;
+    animation-duration: 45s;
+    animation-delay: -22s;
+    transform-origin: -10vw 12vh;
+}
+
+.background span:nth-child(6) {
+    background-color: rgba(255, 20, 147, 0.6); /* Deep pink color with transparency */
+    top: 50%;
+    left: 10%;
+    animation-duration: 92s;
+    animation-delay: -60s;
+    transform-origin: 15vw 15vh;
+}
+
+.background span:nth-child(7) {
+    background-color: rgba(50, 205, 50, 0.6); /* Lime green color with transparency */
+    top: 60%;
+    left: 85%;
+    animation-duration: 33s;
+    animation-delay: -70s;
+    transform-origin: 0vw 5vh;
+}
+
+.background span:nth-child(8) {
+    background-color: rgba(255, 69, 0, 0.6); /* Red-orange color with transparency */
+    top: 15%;
+    left: 30%;
+    animation-duration: 68s;
+    animation-delay: -47s;
+    transform-origin: 7vw 20vh;
+}
+
+.background span:nth-child(9) {
+    background-color: rgba(138, 43, 226, 0.6); /* Blue violet color with transparency */
+    top: 40%;
+    left: 75%;
+    animation-duration: 72s;
+    animation-delay: -34s;
+    transform-origin: 12vw 7vh;
+}
+
+.background span:nth-child(10) {
+    background-color: rgba(0, 191, 255, 0.6); /* Deep sky blue color with transparency */
+    top: 55%;
+    left: 50%;
+    animation-duration: 81s;
+    animation-delay: -50s;
+    transform-origin: 20vw 20vh;
+}
+
+.background span:nth-child(11) {
+    background-color: rgba(255, 105, 180, 0.6); /* Hot pink color with transparency */
+    top: 70%;
+    left: 20%;
+    animation-duration: 60s;
+    animation-delay: -20s;
+    transform-origin: 5vw 10vh;
+}
+
+.background span:nth-child(12) {
+    background-color: rgba(255, 69, 0, 0.6); /* Orange red color with transparency */
+    top: 25%;
+    left: 85%;
+    animation-duration: 40s;
+    animation-delay: -70s;
+    transform-origin: 10vw 15vh;
+}
+
+.background span:nth-child(13) {
+    background-color: rgba(0, 250, 154, 0.6); /* Mint cream color with transparency */
+    top: 85%;
+    left: 55%;
+    animation-duration: 57s;
+    animation-delay: -40s;
+    transform-origin: 0vw 20vh;
+}
+
+.background span:nth-child(14) {
+    background-color: rgba(255, 0, 255, 0.6); /* Magenta color with transparency */
+    top: 30%;
+    left: 10%;
+    animation-duration: 90s;
+    animation-delay: -60s;
+    transform-origin: 5vw 5vh;
+}
+
+.background span:nth-child(15) {
+    background-color: rgba(0, 255, 127, 0.6); /* Spring green color with transparency */
+    top: 45%;
+    left: 80%;
+    animation-duration: 77s;
+    animation-delay: -20s;
+    transform-origin: 12vw 15vh;
+}
+
+.background span:nth-child(16) {
+    background-color: rgba(123, 104, 238, 0.6); /* Medium slate blue color with transparency */
+    top: 70%;
+    left: 40%;
+    animation-duration: 83s;
+    animation-delay: -15s;
+    transform-origin: 10vw 10vh;
+}
+
+.background span:nth-child(17) {
+    background-color: rgba(255, 228, 225, 0.6); /* Misty rose color with transparency */
+    top: 20%;
+    left: 55%;
+    animation-duration: 65s;
+    animation-delay: -50s;
+    transform-origin: 15vw 20vh;
+}
+
+.background span:nth-child(18) {
+    background-color: rgba(255, 192, 203, 0.6); /* Pink color with transparency */
+    top: 35%;
+    left: 15%;
+    animation-duration: 50s;
+    animation-delay: -25s;
+    transform-origin: 5vw 5vh;
+}
+
+.background span:nth-child(19) {
+    background-color: rgba(176, 224, 230, 0.6); /* Powder blue color with transparency */
+    top: 60%;
+    left: 10%;
+    animation-duration: 73s;
+    animation-delay: -35s;
+    transform-origin: 20vw 20vh;
+}
+
+.background span:nth-child(20) {
+    background-color: rgba(240, 128, 128, 0.6); /* Light coral color with transparency */
+    top: 14%;
+    left: 19%;
+    animation-duration: 41s;
+    animation-delay: -64s;
+    transform-origin: -3vw 10vh;
+}
+
+/* Container styling */
+.container {
+    z-index: 1;
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #20c997; /* Light Teal */
+    color: #fff; /* White text for good readability */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Field container styling */
+.field-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    gap: 15px; /* Space between elements */
+    padding: 15px;
+    margin-bottom: 20px; /* Space below the field container */
+    border-radius: 8px;
+    background-color: #ffffff; /* White background for the container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Field styling */
+.field {
+    width: 93%; /* Full width of the field container */
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.field:focus {
+    border-color: #20c997;
+    outline: none;
+    box-shadow: 0 0 5px rgba(32, 201, 151, 0.5); /* Highlight on focus */
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #20c997;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #17a589;
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Select component styles */
+.range-input {
+    width: 100%; /* Full width of the container */
+    margin: 10px 0;
+    -webkit-appearance: none; /* Remove default styling */
+    background-color: #ddd; /* Background for the range track */
+    height: 8px; /* Height of the track */
+    border-radius: 5px; /* Rounded corners for the track */
+    outline: none; /* Remove default outline */
+}
+
+.range-input::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default thumb styling */
+    background-color: #20c997; /* Color of the thumb */
+    width: 24px; /* Width of the thumb */
+    height: 24px; /* Height of the thumb */
+    border-radius: 50%; /* Circular thumb */
+    cursor: pointer; /* Pointer cursor for the thumb */
+}
+
+.range-input::-moz-range-thumb {
+    background-color: #20c997; /* Color of the thumb */
+    width: 24px; /* Width of the thumb */
+    height: 24px; /* Height of the thumb */
+    border-radius: 50%; /* Circular thumb */
+    cursor: pointer; /* Pointer cursor for the thumb */
+}
+
+.range-input::-ms-thumb {
+    background-color: #20c997; /* Color of the thumb */
+    width: 24px; /* Width of the thumb */
+    height: 24px; /* Height of the thumb */
+    border-radius: 50%; /* Circular thumb */
+    cursor: pointer; /* Pointer cursor for the thumb */
+}
+
+/* Range label styling */
+.range-label {
+    font-size: 16px;
+    margin-left: 10px;
+    color: #333; /* Dark text color for better contrast */
+    align-self: center;
+}
+
+/* Checkbox container styling */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between checkboxes */
+    margin-top: 20px;
+}
+
+/* Checkbox styling */
+.checkbox {
+    accent-color: #20c997; /* Color of the checkbox */
+}
+
+/* Checkbox label styling */
+.checkbox-label {
+    font-size: 16px;
+    color: #fff; /* White text for visibility */
+}
